@@ -24,5 +24,7 @@ export class CarsComponent {
       year: 2018
     }];
 
-
+    updateCarList(car: {name: string, year: number}) {
+      this.cars.push(car);
+    }
 }
